@@ -14,13 +14,10 @@ Este é um projeto de uma calculadora simples desenvolvida utilizando React. A c
 ## Como Utilizar
 
 1. **Clonar o Repositório:**
-git clone https://github.com/seu-usuario/calculadora-react.git
-
 
 2. **Instalar Dependências:**
 cd calculadora-react //
 npm install
-
 
 3. **Executar o Projeto:**
 npm start
