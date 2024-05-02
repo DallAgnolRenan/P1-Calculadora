@@ -25,4 +25,4 @@ npm start
 ## Tecnologias Utilizadas
 
 - React
-- CSS (para estilização
+- CSS (para estilização)
