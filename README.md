@@ -9,6 +9,8 @@ Este é um projeto de uma calculadora simples desenvolvida utilizando React. A c
 - **Limpar (AC):** O botão "AC" permite limpar o display e reiniciar a calculadora.
 - **Cálculo de Resultados:** Ao pressionar o botão de igual (=), a calculadora realiza o cálculo da operação e exibe o resultado.
 
+![image](https://github.com/DallAgnolRenan/P1-Calculadora/assets/111012370/71714fe1-5799-4653-ac1d-c7fd67222053)
+
 ## Como Utilizar
 
 1. **Clonar o Repositório:**
