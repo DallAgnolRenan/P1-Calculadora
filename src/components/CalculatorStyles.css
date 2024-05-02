@@ -1,0 +1,23 @@
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.complete-operation,
+.display {
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  padding: 5px;
+  border: solid 1px #000;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+}
