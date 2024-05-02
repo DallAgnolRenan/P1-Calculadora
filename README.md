@@ -16,7 +16,7 @@ git clone https://github.com/seu-usuario/calculadora-react.git
 
 
 2. **Instalar Dependências:**
-cd calculadora-react
+cd calculadora-react //
 npm install
 
 
