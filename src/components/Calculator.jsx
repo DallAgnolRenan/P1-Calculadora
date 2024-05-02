@@ -22,6 +22,7 @@ const Calculator = () => {
     setCompleteOperation((prevOperation) => prevOperation + val)
   }
 
+  //função que é chamada quando um botão de operação é clicado
   const handleOperation = (operation) => {
     setCompleteOperation(currentValue + "" + operation)
     setPendingOperation(operation)
@@ -29,6 +30,7 @@ const Calculator = () => {
     setCurrentValue("0")
   }
 
+  //função que é chamada quando o botão de 'AC'(limpar) é clicado
   const handleClear = () => {
     setCurrentValue("0")
     setPendingValue(null)
@@ -36,6 +38,7 @@ const Calculator = () => {
     setCompleteOperation("")
   }
 
+  //função que é chamada quando o botão de '=' é clicado
   const handleCalculate = () => {
     if (!pendingOperation || !pendingValue) {
       return
@@ -80,7 +83,7 @@ const Calculator = () => {
     setPendingValue(null)
     setPendingOperation(null)
   }
-
+  //Responsavel por renderizar a calculadora com os botões de números, operações e o display
   return (
     <div className="calculator-container">
       <div className="complete-operation">{completeOperation}</div>
